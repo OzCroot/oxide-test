@@ -16,3 +16,4 @@
 - 14: Eve Martínez <eve@example.com>
 - 15: Bob Smith <bob.smith@corp.example.com>
 - 16: Alice Johnson <alice@example.com>
+- 17: dependabot[bot] <bot@example.com>
