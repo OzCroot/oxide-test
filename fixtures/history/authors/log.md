@@ -18,3 +18,4 @@
 - 16: Alice Johnson <alice@example.com>
 - 17: dependabot[bot] <bot@example.com>
 - 18: Dmitri Volkov <dmitri@example.com>
+- 19: Bob Smith <bob.smith@corp.example.com>
