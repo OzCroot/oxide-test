@@ -21,3 +21,4 @@
 - 19: Bob Smith <bob.smith@corp.example.com>
 - 20: Oz <osrzich@gmail.com>
 - 21: 田中 太郎 <taro@example.jp>
+- 22: Dmitri Volkov <dmitri@example.com>
