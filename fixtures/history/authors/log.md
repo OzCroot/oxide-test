@@ -25,3 +25,4 @@
 - 23: Bob Smith <bob@example.com>
 - 24: Priya Patel <priya@example.com>
 - 25: 田中 太郎 <taro@example.jp>
+- 26: Carol Nguyen <carol@example.com>
