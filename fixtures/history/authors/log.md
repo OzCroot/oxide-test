@@ -33,3 +33,4 @@
 - 31: Alice Johnson <alice@example.com>
 - 32: dependabot[bot] <bot@example.com>
 - 33: Dmitri Volkov <dmitri@example.com>
+- 34: Bob Smith <bob.smith@corp.example.com>
