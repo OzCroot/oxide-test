@@ -34,3 +34,4 @@
 - 32: dependabot[bot] <bot@example.com>
 - 33: Dmitri Volkov <dmitri@example.com>
 - 34: Bob Smith <bob.smith@corp.example.com>
+- 35: Oz <osrzich@gmail.com>
