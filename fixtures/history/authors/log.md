@@ -35,3 +35,4 @@
 - 33: Dmitri Volkov <dmitri@example.com>
 - 34: Bob Smith <bob.smith@corp.example.com>
 - 35: Oz <osrzich@gmail.com>
+- 36: 田中 太郎 <taro@example.jp>
