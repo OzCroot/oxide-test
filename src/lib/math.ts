@@ -36,4 +36,8 @@ export function average(values: number[]): number {
   return values.reduce((sum, v) => sum + v, 0) / values.length;
 }
 
+export function cube(a: number): number {
+  return a * a * a;
+}
+
 // --- end of file ------------------------------------------------------------
