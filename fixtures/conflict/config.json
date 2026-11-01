@@ -1,6 +1,6 @@
 {
-  "name": "demo",
-  "port": 8080,
+  "name": "demo-ours",
+  "port": 9090,
   "debug": false,
   "features": ["alpha", "beta"],
   "retries": 3

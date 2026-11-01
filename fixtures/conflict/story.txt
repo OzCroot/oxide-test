@@ -7,9 +7,9 @@
 07: Gulls argued on the rocks below.
 08: A boat appeared at the edge of the fog.
 09: It carried no lantern and no flag.
-10: He raised the lamp and signalled twice.
-11: The boat did not answer.
-12: It drifted closer to the rocks.
+10: OURS: He raised the lamp and called out.
+11: OURS: A voice called back.
+12: OURS: The boat turned toward him.
 13: He ran down the stairs, two at a time.
 14: The rope was wet and heavy in his hands.
 15: He threw it as far as he could.
