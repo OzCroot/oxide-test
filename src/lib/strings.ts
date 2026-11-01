@@ -24,3 +24,7 @@ export function truncate(text: string, max: number): string {
 export function padLeft(text: string, width: number, fill = " "): string {
   return text.length >= width ? text : fill.repeat(width - text.length) + text;
 }
+
+export function shout(text: string): string {
+  return text.toUpperCase() + "!";
+}
