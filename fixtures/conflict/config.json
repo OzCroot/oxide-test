@@ -1,7 +1,7 @@
 {
   "name": "demo",
-  "port": 8080,
+  "port": 7070,
   "debug": false,
-  "features": ["alpha", "beta"],
+  "features": ["alpha", "beta", "gamma"],
   "retries": 3
 }

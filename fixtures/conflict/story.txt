@@ -7,9 +7,9 @@
 07: Gulls argued on the rocks below.
 08: A boat appeared at the edge of the fog.
 09: It carried no lantern and no flag.
-10: He raised the lamp and signalled twice.
-11: The boat did not answer.
-12: It drifted closer to the rocks.
+10: THEIRS: He lit a flare instead.
+11: THEIRS: It burned red over the water.
+12: THEIRS: The boat veered away.
 13: He ran down the stairs, two at a time.
 14: The rope was wet and heavy in his hands.
 15: He threw it as far as he could.
@@ -22,7 +22,7 @@
 22: The keeper gave him both.
 23: By noon the fog had lifted.
 24: The boat was gone by evening.
-25: He lit the lamp again that night.
+25: He lit the lamp one last time.
 26: Nobody ever asked about it.
 27: He never told a soul.
 28: The sea kept its own counsel.
