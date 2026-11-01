@@ -1,5 +1,9 @@
 // Small math helpers used by the demo entry point.
 
+export function square(a: number): number {
+  return a * a;
+}
+
 // --- basics -----------------------------------------------------------------
 
 export function add(a: number, b: number): number {
