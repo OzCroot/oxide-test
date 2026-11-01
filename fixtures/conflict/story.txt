@@ -1,0 +1,30 @@
+01: The lighthouse keeper woke before dawn.
+02: He lit the lamp and checked the glass.
+03: Fog lay thick across the harbour.
+04: A bell rang somewhere far off.
+05: The tide was already turning.
+06: He poured tea and watched the water.
+07: Gulls argued on the rocks below.
+08: A boat appeared at the edge of the fog.
+09: It carried no lantern and no flag.
+10: He raised the lamp and signalled twice.
+11: The boat did not answer.
+12: It drifted closer to the rocks.
+13: He ran down the stairs, two at a time.
+14: The rope was wet and heavy in his hands.
+15: He threw it as far as he could.
+16: The line fell short and sank.
+17: He hauled it back and tried again.
+18: This time a figure caught the rope.
+19: Together they dragged the boat clear.
+20: The stranger said nothing for a long while.
+21: Then he asked for a name and a map.
+22: The keeper gave him both.
+23: By noon the fog had lifted.
+24: The boat was gone by evening.
+25: He lit the lamp again that night.
+26: Nobody ever asked about it.
+27: He never told a soul.
+28: The sea kept its own counsel.
+29: Years later he found a coin on the sill.
+30: It was the last thing he understood.
