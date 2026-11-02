@@ -1,7 +1,8 @@
 function nested() {
 	if (true) {
 		if (true) {
-			console.log('deep');
+			console.log('deeper');
 		}
 	}
 }
+	// tab-indented comment
