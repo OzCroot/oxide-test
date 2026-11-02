@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+# Demo pre-commit hook. It fails on FIXME and is slow for fixtures/hooks/slow.txt.
+red=$'\033[31m'; yellow=$'\033[33m'; bold=$'\033[1m'; reset=$'\033[0m'
+echo "${bold}pre-commit${reset}: checking staged changes"
+
+if git diff --cached | grep -q '^+.*FIXME'; then
+  echo "${red}error:${reset} found FIXME in staged changes:"
+  git diff --cached -G'FIXME' --name-only | sed 's/^/  - /'
+  echo "${yellow}hint:${reset} remove the FIXME, or commit it with the hook off."
+  exit 1
+fi
+
+if git diff --cached --name-only | grep -q 'fixtures/hooks/slow.txt'; then
+  for i in 1 2 3 4 5; do
+    echo "linting slow.txt... ($i/5)"
+    sleep 1
+  done
+fi
+
+echo "pre-commit: ok"
