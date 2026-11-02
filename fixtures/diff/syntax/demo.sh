@@ -1,2 +1,4 @@
 #!/usr/bin/env bash
-echo "start"
+# Print a start banner and the date.
+set -euo pipefail
+echo "start: $(date)"

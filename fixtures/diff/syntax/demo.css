@@ -1,4 +1,6 @@
+/* Primary button */
 .button {
-  color: #333;
-  padding: 4px 8px;
+  color: #0a58ca;
+  padding: 6px 12px;
+  border-radius: 4px;
 }

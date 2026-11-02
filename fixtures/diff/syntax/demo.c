@@ -1,6 +1,8 @@
 #include <stdio.h>
+#include <stdlib.h>
+#define GREETING "hello"
 
 int main(void) {
-    printf("hello\n");
-    return 0;
+    printf("%s\n", GREETING);
+    return EXIT_SUCCESS;
 }

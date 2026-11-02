@@ -1,12 +1,13 @@
 /// Adds two numbers.
+#[inline]
 fn add(a: i32, b: i32) -> i32 {
-    a + b
+    a.wrapping_add(b)
 }
 
 /*
  * Legacy notes, kept for reference.
  * The old version used a lookup table.
- * It was removed in 2024.
+ * It was removed in 2025.
  * Nothing here is compiled.
  * Do not delete until the audit ends.
  * Contact the platform team for details.
@@ -15,5 +16,6 @@ fn add(a: i32, b: i32) -> i32 {
 fn legacy() {}
 
 fn main() {
-    println!("{}", add(1, 2));
+    let total = add(1, 2);
+    println!("total = {}", total);
 }

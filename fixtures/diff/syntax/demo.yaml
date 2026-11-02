@@ -1,3 +1,6 @@
+# Deployment settings
 service:
   name: api
-  replicas: 2
+  replicas: 4
+  env:
+    - KEY=value
