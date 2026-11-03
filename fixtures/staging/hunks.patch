@@ -1,0 +1,62 @@
+diff --git i/fixtures/staging/block.txt w/fixtures/staging/block.txt
+index d75ab22..4eb3d46 100644
+--- i/fixtures/staging/block.txt
++++ w/fixtures/staging/block.txt
+@@ -5,9 +5,9 @@ block line 4
+ block line 5
+ block line 6
+ block line 7
+-block line 8
+-block line 9
+-block line 10
++BLOCK 8 NEW
++BLOCK 9 NEW
++BLOCK 10 NEW
+ block line 11
+ block line 12
+ block line 13
+diff --git i/fixtures/staging/report.ts w/fixtures/staging/report.ts
+index b4effb7..f299920 100644
+--- i/fixtures/staging/report.ts
++++ w/fixtures/staging/report.ts
+@@ -10,7 +10,7 @@ export function step01(input: number): number {
+ }
+ 
+ export function step02(input: number): number {
+-  const base = input * 2;
++  const base = input * 20;  // region 1: widened
+   const offset = 2 + 1;
+   if (base > 100) {
+     return base - offset;
+@@ -29,7 +29,7 @@ export function step03(input: number): number {
+ 
+ export function step04(input: number): number {
+   const base = input * 4;
+-  const offset = 4 + 1;
++  const offset = 4 + 100;  // region 2
+   if (base > 100) {
+     return base - offset;
+   }
+@@ -49,9 +49,10 @@ export function step06(input: number): number {
+   const base = input * 6;
+   const offset = 6 + 1;
+   if (base > 100) {
+-    return base - offset;
++    return base - offset - 1;  // region 3, line a
+   }
+-  return base + offset;
++  const adjusted = base + offset + 1;  // region 3, line b
++  return adjusted;  // region 3, line c
+ }
+ 
+ export function step07(input: number): number {
+@@ -84,9 +85,6 @@ export function step09(input: number): number {
+ export function step10(input: number): number {
+   const base = input * 10;
+   const offset = 10 + 1;
+-  if (base > 100) {
+-    return base - offset;
+-  }
+   return base + offset;
+ }
+ 
