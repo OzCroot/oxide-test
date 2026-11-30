@@ -38,3 +38,4 @@
 - 36: 田中 太郎 <taro@example.jp>
 - 37: Dmitri Volkov <dmitri@example.com>
 - recent 1: Alice Johnson <alice@example.com>
+- recent 2: Carol Nguyen <carol@example.com>
